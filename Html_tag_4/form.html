@@ -26,7 +26,7 @@
         <br>
             <p>Пол</p>
         <div>
-            <input tabindex="4" type="radio" name="sex"> Мужской
+            <input checked tabindex="4" type="radio" name="sex"> Мужской
         </div>
         <div>
             <input tabindex="4" type="radio" name="sex"> Женский
@@ -38,9 +38,19 @@
         <div><input tabindex="7" type="checkbox" name="Country_house">Дача</div>
         <br>
         <div>
-            <textarea placeholder="8" name="Addition" id="" cols="30" rows="10">Дополнитеьная информация</textarea>
+            <textarea placeholder="Дополнительная информация" tabindex="8" name="Addition" cols="30" rows="3">Дополнительная информация</textarea>
         </div>
-
+        <p>Прикрепить фото</p>
+        <input tabindex="9" type="file" name="file" >
+        <p>Любимый цвет</p>
+        <select tabindex="10" name="sel" >
+            <option value="red">Красный</option>
+            <option value="green">Зеленый</option>
+            <option value="white">Белый</option>
+        </select>
+        <p>Действия</p>
+        <button tabindex="11" type="submit">Отправить</button>
+        <button tabindex="12" type="reset">Стереть</button>
     </form>
 </body>
 </html>
